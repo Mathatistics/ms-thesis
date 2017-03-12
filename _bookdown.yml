@@ -1,0 +1,18 @@
+book_filename: "MsThesis"
+output_dir: "docs"
+chapter_name: ""
+rmd_files: [
+  "index.Rmd",
+  "content/introduction.md",
+  "content/data-and-material.md",
+  "content/factors-influencing-exchange-rate.md",
+  "content/inflation.md",
+  "content/interest-rate.md",
+  "content/income-levels.md",
+  "content/government-control.md",
+  "content/expectations.md",
+  "content/balance-of-payment.md",
+  "content/current-account.md",
+  "content/imports.md",
+  "content/exports.md",
+]
