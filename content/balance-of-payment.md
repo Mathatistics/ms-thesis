@@ -1,4 +1,4 @@
-# Balance of Payment
+## Balance of Payment ##
 
 A person of one country need the currency of another country for various purposes such as trade of goods and services, foreign investment and travelling. The actual flow of currency from one country to another is in these forms of activities. The transaction of trade in terms of goods and services between specific countries is kept recorded as a form of balance of payment which can even have signal of possible shifts in exchange rate.
 
@@ -9,48 +9,48 @@ Since Balance of Payment is a bookkeeping system for inter countries economic ac
 Balance of payment can be classified into two broad categories &#8211; a) Current Account and b) Capital Account. The items that lies in these subcategories are illustrated in table below.
 
 <table>
-  <tr>
-    <th>
-      Current Account
-    </th>
-    
-    <th>
-      Capital Account
-    </th>
-  </tr>
-  
-  <tr>
-    <td>
-      <ol>
-        <li>
-          Payments for Merchandise and Services
-        </li>
-        <li>
-          Factor Income Payments
-        </li>
-        <li>
-          Transfer Payments
-        </li>
-      </ol>
-    </td>
-    
-    <td>
-      <ol>
-        <li>
-          Direct Foreign Investment
-        </li>
-        <li>
-          Portfolio Investment
-        </li>
-        <li>
-          Other Capital Investment
-        </li>
-        <li>
-          Errors and Omissions and Reserves
-        </li>
-      </ol>
-    </td>
-  </tr>
+<tr>
+<th>
+Current Account
+</th>
+
+<th>
+Capital Account
+</th>
+</tr>
+
+<tr>
+<td>
+<ol>
+<li>
+Payments for Merchandise and Services
+</li>
+<li>
+Factor Income Payments
+</li>
+<li>
+Transfer Payments
+</li>
+</ol>
+</td>
+
+<td>
+<ol>
+<li>
+Direct Foreign Investment
+</li>
+<li>
+Portfolio Investment
+</li>
+<li>
+Other Capital Investment
+</li>
+<li>
+Errors and Omissions and Reserves
+</li>
+</ol>
+</td>
+</tr>
 </table>
 
 Balance of payment can be classified into two broad categories &#8211; (a) Current Account and (b) Capital Account. The items that lies in these subcategories are illustrated in table-(tab:bopComponents).

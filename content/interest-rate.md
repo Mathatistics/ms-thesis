@@ -1,4 +1,4 @@
-# Interest Rate
+### Interest Rate ###
 
 Since Interest rate has impact on inflation and currency values, by manipulating it, central banks exert influence over both inflation and exchange rates. For example, a sudden increase in interest rate in Norway relative to Eurozone could have increase on investment of Eurozone in Norway with interest-bearing securities. The Eurozone investors wants to invest more in Norway which increases the demand for NOK in Eurozone. Due to stronger incentives, Norwegians also increase their domestic investment, as a result, the supply of NOK in currency market will reduce. The increase in Demand of NOK and decrease in its supply results a shift in exchange rate to lower level. The process is illustrated in figure &#8211; fig:intRateEffect.<figure id="attachment_82" style="width: 467px" class="wp-caption aligncenter">
 
@@ -11,7 +11,7 @@ The influence of market interest rate flows through multiple channel such as dem
 According to madura2012international, change in interest rate in third country can also affect the exchange rates between NOK and Euro. For instance, the sudden increase of interest rate in US would shift the European investment from Norway to US which consequently reduce the demand of NOK resulting a downward pressure on its exchange rate with Euro.
 
 <div>
-  <a style="display: block; text-align: center;" title="Value vs Norwegian Key Interest Rate" href="https://plot.ly/~therimalaya/128/" target="_blank"><img style="max-width: 100%; width: 792px;" src="https://i2.wp.com/plot.ly/~therimalaya/128.png?w=660&#038;ssl=1" alt="Value vs Norwegian Key Interest Rate" data-recalc-dims="1" /></a><br />
+<a style="display: block; text-align: center;" title="Value vs Norwegian Key Interest Rate" href="https://plot.ly/~therimalaya/128/" target="_blank"><img style="max-width: 100%; width: 792px;" src="https://i2.wp.com/plot.ly/~therimalaya/128.png?w=660&#038;ssl=1" alt="Value vs Norwegian Key Interest Rate" data-recalc-dims="1" /></a><br />
 </div>
 
 Since the interest rate is a key factor influencing exchange rate, the key interest rate of Norway and Eurozone along with the loan interest rate of Norway is considered in this thesis. The time series plot of these variables are in figure &#8211; fig:intRates. Due to simultaneous act of other variables, the plot does not exhibit any discrete relationship. However, the model fitted by the data collected suggest some in-depth understanding of this relationship which is analysed and presented in &#8230; .

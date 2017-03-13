@@ -1,77 +1,106 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html >
 
 <head>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="Master Thesis" />
-<meta property="og:type" content="book" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta name="description" content="Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information">
+  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information" />
+  
+  
+  
+
+<meta name="author" content="Raju Rimal">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="sources-of-data.html">
+<link rel="next" href="data-and-material.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 
 
 
 
 
-<meta name="author" content="Raju Rimal" />
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
-
-<meta name="description" content="Master Thesis">
-
-<title>Master Thesis</title>
-
-<link href="libs/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
 
 
 
 
-<link rel="stylesheet" href="toc.css" type="text/css" />
 
 </head>
 
 <body>
 
 
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
 
-<div class="row">
-<div class="col-sm-12">
-<div id="TOC">
-<ul>
-<li><a href="index.html#introduction">Introduction</a></li>
-<li class="has-sub"><a href="introduction-1.html#introduction-1">Introduction</a><ul>
-<li><a href="methods-opted-for-analysis.html#methods-opted-for-analysis">Methods opted for analysis</a></li>
-<li><a href="sources-of-data.html#sources-of-data">Sources of data</a></li>
-<li><a href="objective-of-thesis.html#objective-of-thesis">Objective of thesis</a></li>
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="" data-path="methods-opted-for-analysis.html"><a href="methods-opted-for-analysis.html"><i class="fa fa-check"></i>Methods opted for analysis</a></li>
+<li class="chapter" data-level="" data-path="sources-of-data.html"><a href="sources-of-data.html"><i class="fa fa-check"></i>Sources of data</a></li>
+<li class="chapter" data-level="" data-path="objective-of-thesis.html"><a href="objective-of-thesis.html"><i class="fa fa-check"></i>Objective of thesis</a></li>
 </ul></li>
-<li class="has-sub"><a href="data-and-material.html#data-and-material">Data and Material</a><ul>
-<li><a href="the-norwegian-krone-nok.html#the-norwegian-krone-nok">The Norwegian krone (NOK)</a></li>
-<li><a href="euro.html#euro">EURO</a></li>
-<li><a href="factors-influencing-exchange-rate.html#factors-influencing-exchange-rate">Factors influencing Exchange Rate</a></li>
+<li class="chapter" data-level="" data-path="data-and-material.html"><a href="data-and-material.html"><i class="fa fa-check"></i>Data and Material</a><ul>
+<li class="chapter" data-level="" data-path="forex-market.html"><a href="forex-market.html"><i class="fa fa-check"></i>ForEx Market</a><ul>
+<li class="chapter" data-level="" data-path="forex-market.html"><a href="forex-market.html#the-norwegian-krone-nok"><i class="fa fa-check"></i>The Norwegian krone (NOK)</a></li>
+<li class="chapter" data-level="" data-path="forex-market.html"><a href="forex-market.html#euro"><i class="fa fa-check"></i>EURO</a></li>
 </ul></li>
-<li><a href="inflation.html#inflation">Inflation</a></li>
-<li><a href="interest-rate.html#interest-rate">Interest Rate</a></li>
-<li><a href="income-levels.html#income-levels">Income Levels</a></li>
-<li><a href="government-control.html#government-control">Government Control</a></li>
-<li><a href="expectations.html#expectations">Expectations</a></li>
-<li><a href="balance-of-payment.html#balance-of-payment">Balance of Payment</a></li>
-<li><a href="current-account.html#current-account">Current Account</a></li>
-<li><a href="imports.html#imports">Imports</a></li>
-<li><a href="exports.html#exports">Exports</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html"><i class="fa fa-check"></i>Factors influencing Exchange Rate</a><ul>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#inflation"><i class="fa fa-check"></i>Inflation</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#interest-rate"><i class="fa fa-check"></i>Interest Rate</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#income-levels"><i class="fa fa-check"></i>Income Levels</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#government-control"><i class="fa fa-check"></i>Government Control</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#expectations"><i class="fa fa-check"></i>Expectations</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="balance-of-payment.html"><a href="balance-of-payment.html"><i class="fa fa-check"></i>Balance of Payment</a><ul>
+<li class="chapter" data-level="" data-path="balance-of-payment.html"><a href="balance-of-payment.html#current-account"><i class="fa fa-check"></i>Current Account</a></li>
+</ul></li>
+</ul></li>
 </ul>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-sm-12">
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
 <div id="objective-of-thesis" class="section level2">
 <h2>Objective of thesis</h2>
 <p>There are three main objective of this thesis-</p>
@@ -83,14 +112,62 @@ MathJax.Hub.Config({
 
 </div>
 <!-- </div> -->
-<p style="text-align: center;">
-<a href="sources-of-data.html"><button class="btn btn-default">Previous</button></a>
-<a href="data-and-material.html"><button class="btn btn-default">Next</button></a>
-</p>
-</div>
-</div>
+            </section>
 
+          </div>
+        </div>
+      </div>
+<a href="sources-of-data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-and-material.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
 
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    if (location.protocol !== "file:" && /^https?:/.test(script.src))
+      script.src  = script.src.replace(/^https?:/, '');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
+
 </html>

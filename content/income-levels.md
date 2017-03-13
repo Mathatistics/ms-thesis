@@ -1,4 +1,4 @@
-# Income Levels
+### Income Levels ###
 
 The rise in real income level increases the consumption level. Relative income levels of a country is another factor which can affect the demand of imported goods which consequently affect exchange rate (madura2012international). For instance, if the income levels of people of euro zone rises, other factor being constant, the demand for foreign goods in euro zone may increase which can shift the demand function outward and subsequently increase the exchange rate (figure-fig:incEffect).<figure id="attachment_87" style="width: 522px" class="wp-caption aligncenter">
 

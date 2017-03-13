@@ -1,89 +1,128 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html >
 
 <head>
 
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="pandoc" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="Master Thesis" />
-<meta property="og:type" content="book" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+  <meta name="description" content="Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information">
+  <meta name="generator" content="bookdown 0.3 and GitBook 2.6.7">
+
+  <meta property="og:title" content="Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information" />
+  
+  
+  
+
+<meta name="author" content="Raju Rimal">
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  
+  
+<link rel="prev" href="forex-market.html">
+<link rel="next" href="balance-of-payment.html">
+
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 
 
 
 
 
-<meta name="author" content="Raju Rimal" />
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
-
-<meta name="description" content="Master Thesis">
-
-<title>Master Thesis</title>
-
-<link href="libs/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
 
 
 
 
-<link rel="stylesheet" href="toc.css" type="text/css" />
 
 </head>
 
 <body>
 
 
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
 
-<div class="row">
-<div class="col-sm-12">
-<div id="TOC">
-<ul>
-<li><a href="index.html#introduction">Introduction</a></li>
-<li class="has-sub"><a href="introduction-1.html#introduction-1">Introduction</a><ul>
-<li><a href="methods-opted-for-analysis.html#methods-opted-for-analysis">Methods opted for analysis</a></li>
-<li><a href="sources-of-data.html#sources-of-data">Sources of data</a></li>
-<li><a href="objective-of-thesis.html#objective-of-thesis">Objective of thesis</a></li>
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="" data-path="methods-opted-for-analysis.html"><a href="methods-opted-for-analysis.html"><i class="fa fa-check"></i>Methods opted for analysis</a></li>
+<li class="chapter" data-level="" data-path="sources-of-data.html"><a href="sources-of-data.html"><i class="fa fa-check"></i>Sources of data</a></li>
+<li class="chapter" data-level="" data-path="objective-of-thesis.html"><a href="objective-of-thesis.html"><i class="fa fa-check"></i>Objective of thesis</a></li>
 </ul></li>
-<li class="has-sub"><a href="data-and-material.html#data-and-material">Data and Material</a><ul>
-<li><a href="the-norwegian-krone-nok.html#the-norwegian-krone-nok">The Norwegian krone (NOK)</a></li>
-<li><a href="euro.html#euro">EURO</a></li>
-<li><a href="factors-influencing-exchange-rate.html#factors-influencing-exchange-rate">Factors influencing Exchange Rate</a></li>
+<li class="chapter" data-level="" data-path="data-and-material.html"><a href="data-and-material.html"><i class="fa fa-check"></i>Data and Material</a><ul>
+<li class="chapter" data-level="" data-path="forex-market.html"><a href="forex-market.html"><i class="fa fa-check"></i>ForEx Market</a><ul>
+<li class="chapter" data-level="" data-path="forex-market.html"><a href="forex-market.html#the-norwegian-krone-nok"><i class="fa fa-check"></i>The Norwegian krone (NOK)</a></li>
+<li class="chapter" data-level="" data-path="forex-market.html"><a href="forex-market.html#euro"><i class="fa fa-check"></i>EURO</a></li>
 </ul></li>
-<li><a href="inflation.html#inflation">Inflation</a></li>
-<li><a href="interest-rate.html#interest-rate">Interest Rate</a></li>
-<li><a href="income-levels.html#income-levels">Income Levels</a></li>
-<li><a href="government-control.html#government-control">Government Control</a></li>
-<li><a href="expectations.html#expectations">Expectations</a></li>
-<li><a href="balance-of-payment.html#balance-of-payment">Balance of Payment</a></li>
-<li><a href="current-account.html#current-account">Current Account</a></li>
-<li><a href="imports.html#imports">Imports</a></li>
-<li><a href="exports.html#exports">Exports</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html"><i class="fa fa-check"></i>Factors influencing Exchange Rate</a><ul>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#inflation"><i class="fa fa-check"></i>Inflation</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#interest-rate"><i class="fa fa-check"></i>Interest Rate</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#income-levels"><i class="fa fa-check"></i>Income Levels</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#government-control"><i class="fa fa-check"></i>Government Control</a></li>
+<li class="chapter" data-level="" data-path="factors-influencing-exchange-rate.html"><a href="factors-influencing-exchange-rate.html#expectations"><i class="fa fa-check"></i>Expectations</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="balance-of-payment.html"><a href="balance-of-payment.html"><i class="fa fa-check"></i>Balance of Payment</a><ul>
+<li class="chapter" data-level="" data-path="balance-of-payment.html"><a href="balance-of-payment.html#current-account"><i class="fa fa-check"></i>Current Account</a></li>
+</ul></li>
+</ul></li>
 </ul>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-sm-12">
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
 <div id="factors-influencing-exchange-rate" class="section level2">
 <h2>Factors influencing Exchange Rate</h2>
 <p>The demand of any currency relative to its supply determines its price, just like any other commodity. For each possible price of a Norwegian Krone, there is a corresponding demand and supply to be exchanged with euro in the money market. When demand of krone equals its supply, the price it exhibit at some specific time is called its equilibrium exchange rate. Factors like inflation, interest rates, expectation and government policy affects the demand for any currency. But the supply is mostly in control of the central bank. In a floating exchange rate regime, the shift in demand (fig-fig:demandShift) and supply(fig-fig:supplyShift) function determines equilibrium exchange rate of any currency.</p>
 <div class="two-up-image">
 <div id="demandShift" class="image-left">
-<pre><code>&lt;figure id=&quot;attachment_35&quot; style=&quot;width: 660px&quot; class=&quot;wp-caption aligncenter&quot;&gt;&lt;img src=&quot;https://i1.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/DemandShift-1024x612.png?fit=660%2C394&quot; alt=&quot;DemandShift&quot; class=&quot;size-large wp-image-35&quot; srcset=&quot;https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/DemandShift.png?resize=1024%2C612 1024w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/DemandShift.png?resize=300%2C179 300w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/DemandShift.png?w=1295 1295w&quot; sizes=&quot;(max-width: 660px) 100vw, 660px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;figcaption class=&quot;wp-caption-text&quot;&gt;Demand Shift and Exchange Rate Equilibrium&lt;/figcaption&gt;&lt;/figure&gt;</code></pre>
+<figure id="attachment_35" style="width: 660px" class="wp-caption aligncenter">
+<img src="https://i1.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/DemandShift-1024x612.png?fit=660%2C394" alt="DemandShift" class="size-large wp-image-35" srcset="https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/DemandShift.png?resize=1024%2C612 1024w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/DemandShift.png?resize=300%2C179 300w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/DemandShift.png?w=1295 1295w" sizes="(max-width: 660px) 100vw, 660px" data-recalc-dims="1" />
+<figcaption class="wp-caption-text">
+Demand Shift and Exchange Rate Equilibrium
+</figcaption>
+</figure>
 </div>
 <div id="demandShift" class="image-right">
-<pre><code>&lt;figure id=&quot;attachment_36&quot; style=&quot;width: 660px&quot; class=&quot;wp-caption aligncenter&quot;&gt;&lt;img src=&quot;https://i1.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/SupplyShift-1024x615.png?fit=660%2C396&quot; alt=&quot;SupplyShift&quot; class=&quot;size-large wp-image-36&quot; srcset=&quot;https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/SupplyShift.png?resize=1024%2C615 1024w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/SupplyShift.png?resize=300%2C180 300w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/SupplyShift.png?w=1288 1288w&quot; sizes=&quot;(max-width: 660px) 100vw, 660px&quot; data-recalc-dims=&quot;1&quot; /&gt;&lt;figcaption class=&quot;wp-caption-text&quot;&gt;Supply Shift and Exchange Rate Equilibrium&lt;/figcaption&gt;&lt;/figure&gt;</code></pre>
+<figure id="attachment_36" style="width: 660px" class="wp-caption aligncenter">
+<img src="https://i1.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/SupplyShift-1024x615.png?fit=660%2C396" alt="SupplyShift" class="size-large wp-image-36" srcset="https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/SupplyShift.png?resize=1024%2C615 1024w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/SupplyShift.png?resize=300%2C180 300w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/SupplyShift.png?w=1288 1288w" sizes="(max-width: 660px) 100vw, 660px" data-recalc-dims="1" />
+<figcaption class="wp-caption-text">
+Supply Shift and Exchange Rate Equilibrium
+</figcaption>
+</figure>
 </div>
 <div class="wp-caption-text full-width-caption">
-<pre><code>Effect of shifts on demand and supply of currencies on their Exchange rates</code></pre>
+<p>Effect of shifts on demand and supply of currencies on their Exchange rates</p>
 </div>
 </div>
 <p>In case of demand shift, with constant currency supply, the exchange rate will suddenly rise to <span class="math inline">\(e’_d\)</span> creating dead weight loss (also known as <a href="https://www.cia.gov/library/publications/the-world-factbook/geos/no.html">excess burden or allocative inefficiency</a> which consequently pushes the supply from <span class="math inline">\(Q\_0\)</span> to <span class="math inline">\(Q\_1\)</span> creating a new equilibrium exchange rate at <span class="math inline">\(e\_1\)</span>. In the similar fashion, if the market is over flooded with currency, shifting the supply function and creating dead weight loss, the exchange rate is pressed from <span class="math inline">\(e\_0\)</span> to create a new equilibrium at <span class="math inline">\(e_1\)</span>. In both the situation, the quantity supplied although being increased, the first one leads to a rise in exchange rate while the other leads to its fall.</p>
@@ -94,71 +133,179 @@ MathJax.Hub.Config({
 <p>where,</p>
 <table>
 <tr>
-<pre><code>&lt;td style=&quot;width:20%&quot;&gt;
-  \(e\):
-&lt;/td&gt;
-
-&lt;td style=&quot;width:80%&quot;&gt;
-  percentage change in spot exchange rate
-&lt;/td&gt;</code></pre>
+<td style="width:20%">
+<span class="math inline">\(e\)</span>:
+</td>
+<td style="width:80%">
+percentage change in spot exchange rate
+</td>
 </tr>
 <tr>
-<pre><code>&lt;td style=&quot;width:20%&quot;&gt;
-  \(\Delta\) INF:
-&lt;/td&gt;
-
-&lt;td style=&quot;width:80%&quot;&gt;
-  change in inflation differential between two countries (currencies)
-&lt;/td&gt;</code></pre>
+<td style="width:20%">
+<span class="math inline">\(\Delta\)</span> INF:
+</td>
+<td style="width:80%">
+change in inflation differential between two countries (currencies)
+</td>
 </tr>
 <tr>
-<pre><code>&lt;td style=&quot;width:20%&quot;&gt;
-  \(\Delta\) INT:
-&lt;/td&gt;
-
-&lt;td style=&quot;width:80%&quot;&gt;
-  change in interest rate differential between two countries
-&lt;/td&gt;</code></pre>
+<td style="width:20%">
+<span class="math inline">\(\Delta\)</span> INT:
+</td>
+<td style="width:80%">
+change in interest rate differential between two countries
+</td>
 </tr>
 <tr>
-<pre><code>&lt;td style=&quot;width:20%&quot;&gt;
-  \(\Delta\) INC:
-&lt;/td&gt;
-
-&lt;td style=&quot;width:80%&quot;&gt;
-  change in the income level differential between two countries
-&lt;/td&gt;</code></pre>
+<td style="width:20%">
+<span class="math inline">\(\Delta\)</span> INC:
+</td>
+<td style="width:80%">
+change in the income level differential between two countries
+</td>
 </tr>
 <tr>
-<pre><code>&lt;td style=&quot;width:20%&quot;&gt;
-  \(\Delta\) GC:
-&lt;/td&gt;
-
-&lt;td style=&quot;width:80%&quot;&gt;
-  change in government control
-&lt;/td&gt;</code></pre>
+<td style="width:20%">
+<span class="math inline">\(\Delta\)</span> GC:
+</td>
+<td style="width:80%">
+change in government control
+</td>
 </tr>
 <tr>
-<pre><code>&lt;td style=&quot;width:20%&quot;&gt;
-  \(\Delta\) EXP:
-&lt;/td&gt;
-
-&lt;td style=&quot;width:80%&quot;&gt;
-  change in currency value expectations
-&lt;/td&gt;</code></pre>
+<td style="width:20%">
+<span class="math inline">\(\Delta\)</span> EXP:
+</td>
+<td style="width:80%">
+change in currency value expectations
+</td>
 </tr>
 </table>
 
-</div>
-<!-- </div> -->
-<p style="text-align: center;">
-<a href="euro.html"><button class="btn btn-default">Previous</button></a>
-<a href="inflation.html"><button class="btn btn-default">Next</button></a>
-</p>
-</div>
+<div id="inflation" class="section level3">
+<h3>Inflation</h3>
+Inflation is the steady rise in overall price level, i.e. a decrease in the value of currency. In other words, more amount of money is needed to buy same goods than previous. Relative change in inflation has effect on exchange rate. For instance, an abrupt rise in the inflation in Norway relative to the Eurozone, Norwegian products becomes relatively expensive in terms of Norwegian Currency. On one hand, this would increase the demands for Eurozone goods, and consequently the demand for euro increases in the short run. On the other hand, expensive Norwegian goods becomes less attractive in Eurozone and therefore reduce the supply of euro purchasing Norwegian kroner. In figure – fig:inflationEffect, the demand function of Euro shift upward due to inflation of NOK, i.e. Eurozone goods are more attractive than Norwegian goods and the downward shift on supply function occurs as the customers are less interested in Norwegian products. As a result the value of Euro per NOK increases from 9.10 to 9.97, i.e Norwegian Krone deprecates against the Euro (madura2012international).
+<figure id="attachment_73" style="width: 396px" class="wp-caption aligncenter">
+<img class="wp-image-73 " src="https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/InflationEffect.png?resize=396%2C396" alt="Inflation Effect" srcset="https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/InflationEffect.png?resize=300%2C300 300w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/InflationEffect.png?resize=150%2C150 150w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/InflationEffect.png?w=706 706w" sizes="(max-width: 396px) 100vw, 396px" data-recalc-dims="1" />
+<figcaption class="wp-caption-text">
+Effect of inflation on Exchange Rate Equilibrium
+</figcaption>
+</figure>
+<p>Statistics Norway prepares and publishes the official figures for inflation, the consumer price index (CPI) with base year at 1998. Since the real value of money is constantly declining, high inflation means that storing money is expensive. while low and stable inflation contributes to an efficient distribution of resources in a market economy (NorgesBank2007faq). Since this is an important factor that can influence exchange rate, data for CPI is obtained for this thesis from Norges bank. The time-series plot for CPI in figure-fig:tsCPI shows an steady increment over the time.</p>
+<div>
+<p><a style="display: block; text-align: center;" title="Time Series plot of Consumer Price Index (CPI)" href="https://plot.ly/~therimalaya/124/" target="_blank"><img style="max-width: 100%; width: 792px;" src="https://i1.wp.com/plot.ly/~therimalaya/124.png?w=660&#038;ssl=1" alt="Time Series plot of Consumer Price Index (CPI)" data-recalc-dims="1" /></a><br /></p>
 </div>
 
+</div>
+<div id="interest-rate" class="section level3">
+<h3>Interest Rate</h3>
+Since Interest rate has impact on inflation and currency values, by manipulating it, central banks exert influence over both inflation and exchange rates. For example, a sudden increase in interest rate in Norway relative to Eurozone could have increase on investment of Eurozone in Norway with interest-bearing securities. The Eurozone investors wants to invest more in Norway which increases the demand for NOK in Eurozone. Due to stronger incentives, Norwegians also increase their domestic investment, as a result, the supply of NOK in currency market will reduce. The increase in Demand of NOK and decrease in its supply results a shift in exchange rate to lower level. The process is illustrated in figure – fig:intRateEffect.
+<figure id="attachment_82" style="width: 467px" class="wp-caption aligncenter">
+<img class="wp-image-82 " src="https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/interestRateShift.png?resize=467%2C445" alt="Interest Rate Shift" srcset="https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/interestRateShift.png?w=600 600w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/interestRateShift.png?resize=300%2C286 300w" sizes="(max-width: 467px) 100vw, 467px" data-recalc-dims="1" />
+<figcaption class="wp-caption-text">
+Effect of interest rate change in Exchange Rate]{Effect of Interest Rate change on Exchange Rate includes (a) Demand Shift: Due to increased interest rate in Norway, demand of Norwegian Krone increases creating a demand shift in demand function and (b) Supply Shift: The supply of Krone decrease as Norwegian increase their domestic investment creating a shortage of NOK in market.
+</figcaption>
+</figure>
+The influence of market interest rate flows through multiple channel such as demand channel, exchange Rate channel and expectation Channel as shown in figure-fig:mrktRateInfluence (intRateEffect:2004NB).
+<figure id="attachment_83" style="width: 540px" class="wp-caption aligncenter">
+<img class="wp-image-83 " src="https://i2.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/marketRate.png?resize=540%2C199" alt="Market Rate" srcset="https://i2.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/marketRate.png?resize=1024%2C377 1024w, https://i2.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/marketRate.png?resize=300%2C110 300w, https://i2.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/marketRate.png?w=1115 1115w" sizes="(max-width: 540px) 100vw, 540px" data-recalc-dims="1" />
+<figcaption class="wp-caption-text">
+Market Rate influence on demand channel, exchange rate channel and expectation channel
+</figcaption>
+</figure>
+<p>According to madura2012international, change in interest rate in third country can also affect the exchange rates between NOK and Euro. For instance, the sudden increase of interest rate in US would shift the European investment from Norway to US which consequently reduce the demand of NOK resulting a downward pressure on its exchange rate with Euro.</p>
+<div>
+<p><a style="display: block; text-align: center;" title="Value vs Norwegian Key Interest Rate" href="https://plot.ly/~therimalaya/128/" target="_blank"><img style="max-width: 100%; width: 792px;" src="https://i2.wp.com/plot.ly/~therimalaya/128.png?w=660&#038;ssl=1" alt="Value vs Norwegian Key Interest Rate" data-recalc-dims="1" /></a><br /></p>
+</div>
+<p>Since the interest rate is a key factor influencing exchange rate, the key interest rate of Norway and Eurozone along with the loan interest rate of Norway is considered in this thesis. The time series plot of these variables are in figure – fig:intRates. Due to simultaneous act of other variables, the plot does not exhibit any discrete relationship. However, the model fitted by the data collected suggest some in-depth understanding of this relationship which is analysed and presented in … .</p>
 
+</div>
+<div id="income-levels" class="section level3">
+<h3>Income Levels</h3>
+The rise in real income level increases the consumption level. Relative income levels of a country is another factor which can affect the demand of imported goods which consequently affect exchange rate (madura2012international). For instance, if the income levels of people of euro zone rises, other factor being constant, the demand for foreign goods in euro zone may increase which can shift the demand function outward and subsequently increase the exchange rate (figure-fig:incEffect).
+<figure id="attachment_87" style="width: 522px" class="wp-caption aligncenter">
+<img class="wp-image-87 " src="https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/Income-Effect.png?resize=522%2C498" alt="Income Effect" srcset="https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/Income-Effect.png?w=600 600w, https://i0.wp.com/thesis.mathatistics.com/wp-content/uploads/2015/03/Income-Effect.png?resize=300%2C286 300w" sizes="(max-width: 522px) 100vw, 522px" data-recalc-dims="1" />
+<figcaption class="wp-caption-text">
+Effect of change in relative income levels on exchange rate ceteris paribus.
+</figcaption>
+</figure>
+<p>The example considered above is on the assumption of <em>ceteris paribus</em>, which in reality is not usual. The change in exchange rate due to income levels is also guided through the effect of income levels on interest rates and inflation. The increased income levels increase the consumption cause the economy to overheat. Central banks could increase interest rates to prevent overheating and increased inflation. Thus the relative change in income levels can affect exchange rates directly and indirectly (madura2012international).</p>
 
+</div>
+<div id="government-control" class="section level3">
+<h3>Government Control</h3>
+<p>Government Control is the fourth factor madura2012international has considered that can influence foreign exchange rate. Government can influence exchange rate in many ways including,</p>
+<ol style="list-style-type: decimal">
+<li>imposing foreign exchange barriers</li>
+<li>imposing foreign trade barriers</li>
+<li>intervening (buying and selling currencies) in the foreign exchange markets and</li>
+<li>affecting macro variables such as inflation, interest rates, and income levels</li>
+</ol>
+<p>Norges Bank could force the currency to depreciate by flooding the market with NOK (i.e increasing supply) if Norway wants to boost its exports. Similarly, the bank could used their foreign currency reserve to purchase NOK to rise its value. Such direct interventions make considerable impact on the exchange rate. As a indirect intervention, the government can influencing the underlying macroeconomic factors like inflation, interest rate and income level (madura2012international).</p>
+
+</div>
+<div id="expectations" class="section level3">
+<h3>Expectations</h3>
+<p>Response to new information in foreign exchange market is similar to other financial market. The current expectation for the future value is reflected in the exchange rate changes. Like in stock market, when a company publishes its prosperous financial statement, the stock price suddenly rises; the forex market also exhibit similar performance. For example, a news of increasing inflation in Norway cause currency traders to sell Norwegian Krone expecting a decrease in its future value. This expectation is immediately seen as a downward pressure on Norwegian Krone. The similar effect is obtained when speculator expects the currency to depreciate (madura2012international).</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="forex-market.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="balance-of-payment.html" class="navigation navigation-next " aria-label="Next page""><i class="fa fa-angle-right"></i></a>
+
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script>
+require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"weibo": false,
+"instapper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    if (location.protocol !== "file:" && /^https?:/.test(script.src))
+      script.src  = script.src.replace(/^https?:/, '');
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
+
 </html>

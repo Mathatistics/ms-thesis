@@ -1,11 +1,15 @@
 ---
-title: "Master Thesis"
+title: "Evaluation of Models for predicting the average monthly Euro versus Norwegian krone exchange rate from financial and commodity information"
 author: "Raju Rimal"
 site: bookdown::bookdown_site
+documentclass: book
 output:
-  bookdown::git_book:
+  bookdown::gitbook:
     number_section: no
-    toc: yes
+    split_by: "section+number"
 ---
 
-# Introduction
+# Abstract
+Many multinational companies and policy makers carry out decisions by speculating exchange rate. Exchange rate is determined by the demand and supply of a currency. It depends highly on variables like imports, exports, interest rates, oil prices, inflation and even with its past values. Since these macroeconomic variables are highly correlated with each other, latent variables or principal components can solve the problem of multicollinearity. The application of latent variables and prin- cipal components based methods such as Principal Component Regression (PCR) and Partial Least Square (PLS) in time series data for prediction is uncommon. Prediction of exchange rate of Norwegian Krone per Euro using Multiple linear re- gression, Principal Component Regression (PCR) and Partial Least Square (PLS) regression is performed in this dissertation.
+
+Linear models and its subsets obtained using criteria such as minimum AIC or BIC and maximum R2adj are compared on the basis of their goodness of fit. The selected model is then compared with models from principal component regression and partial least square regression on the basis of predictability criteria of RMSEP and R2 predicted. The results have suggested the partial least square regression as the best models among other. The residuals obtained from the models have no au- tocorrelations so the application of this method has not only reduced the dimension of data but also resolved the problem of multicollinearity and autocorrelations.

@@ -1,4 +1,4 @@
-# Government Control
+### Government Control ###
 
 Government Control is the fourth factor madura2012international has considered that can influence foreign exchange rate. Government can influence exchange rate in many ways including,
 
